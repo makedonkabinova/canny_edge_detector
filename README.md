@@ -35,15 +35,15 @@ Experiments use the [CTMRI dataset](https://lbcsi.fri.uni-lj.si/OBSS/Data/CTMRI/
 
 The pipeline produces intermediate and final outputs for both filter variants:
 
-| Folder | Contents |
-|---|---|
-| `original/` | Raw CT slices (grayscale) |
-| `suppressed_output_gaussian/` | Non-maximum suppression results — Gaussian smoothing |
-| `suppressed_output_bilateral/` | Non-maximum suppression results — Bilateral smoothing |
-| `hysteresis_output_gaussian/` | Hysteresis thresholding results — Gaussian smoothing |
-| `hysteresis_output_bilateral/` | Hysteresis thresholding results — Bilateral smoothing |
-| `final_output_gaussian/` | Final 3D-linked edges (24-connectivity) — Gaussian smoothing |
-| `final_output_bilateral/` | Final 3D-linked edges (24-connectivity) — Bilateral smoothing |
+| Folder | Contents                                                      |
+|---|---------------------------------------------------------------|
+| `original/` | Raw CT slices (grayscale)                                     |
+| `suppressed_output_gaussian/` | Non-maximum suppression results - Gaussian smoothing          |
+| `suppressed_output_bilateral/` | Non-maximum suppression results - Bilateral smoothing         |
+| `hysteresis_output_gaussian/` | Hysteresis thresholding results - Gaussian smoothing          |
+| `hysteresis_output_bilateral/` | Hysteresis thresholding results - Bilateral smoothing         |
+| `final_output_gaussian/` | Final 3D-linked edges (24-connectivity) - Gaussian smoothing  |
+| `final_output_bilateral/` | Final 3D-linked edges (24-connectivity) - Bilateral smoothing |
 
 ---
 
